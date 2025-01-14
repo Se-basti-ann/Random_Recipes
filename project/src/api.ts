@@ -32,7 +32,7 @@ export const getRandomRecipe = async (tags: string[] = ['under_30_minutes']): Pr
 
 
 /* const API_URL = 'https://tasty.p.rapidapi.com/recipes/list';
-const API_KEY = 'fae34dc77fmshef3485b4534d9d5p1eeecajsnf5377888c279';
+const API_KEY = apiKey;
 
 export const fetchRecipes = async (tag: string) => {
     const response = await fetch(`${API_URL}?from=0&size=20&tags=${tag}`, {
