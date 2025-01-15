@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { Recipe } from './types';
 
-const apiKey = import.meta.env.VITE_API_KEY;
+const apiKey = import.meta.env.REACT_APP_API_KEY;
 
 const api = axios.create({
   baseURL: 'https://tasty.p.rapidapi.com',
