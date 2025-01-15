@@ -22,6 +22,10 @@ To set up the project locally, follow these steps:
    ```bash
    git clone https://github.com/Se-basti-ann/Random_Recipes.git
    cd Random_Recipes
+   cd project
+   npm install
+   npm run dev
+   
 2. Install Dependencies: Ensure you have Node.js and npm installed. Run the following command to install the project dependencies:
    ### npm install
 3. Start the Development Server: Start the development server with:
